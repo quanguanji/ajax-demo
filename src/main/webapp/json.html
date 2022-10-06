@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var jsonStr = '{"username":"zhangsan", "age":23, "address":["北京","上海","西安"]}';
+    alert(jsonStr);
+    var jsObject = JSON.parse(jsonStr);
+    alert(jsObject)
+    alert(jsObject.username);
+    var jsonStr2 = JSON.stringify(jsObject);
+    alert(jsonStr2)
+</script>
+</html>
